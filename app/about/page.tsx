@@ -13,9 +13,9 @@ import { company } from "@/content/company";
 import { SocialLinks } from "@/components/layout/social-links";
 
 export const metadata: Metadata = pageMeta({
-  title: "About Patel Sons | Builders in Ahmedabad Since 2004",
+  title: "About Patel Sons | Builders in Lucknow Since 2004",
   description:
-    "Patel Sons, founded by Himanshu Verma with co-partner Abhishek: 20+ years building row houses, apartments and private homes in Ahmedabad. In-house engineers, RERA projects, fixed-price contracts.",
+    "Patel Sons, founded by Himanshu Verma with co-partner Abhishek: 20+ years building row houses, apartments and private homes in Lucknow. In-house engineers, RERA projects, fixed-price contracts.",
   path: "/about",
 });
 
@@ -35,7 +35,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About us"
         title="Two generations of building homes families trust"
-        text="Started in 2004 with a single row house project. Today Patel Sons delivers gated communities, apartment towers and private homes across Ahmedabad."
+        text="Started in 2004 with a single row house project. Today Patel Sons delivers gated communities, apartment towers and private homes across Lucknow."
         image="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=80"
         crumbs={[{ name: "Home", path: "/" }, { name: "About", path: "/about" }]}
       />
@@ -47,7 +47,7 @@ export default function AboutPage() {
             <SectionHeading eyebrow="Our story" title="From one site to a city full of homes" />
             <div className="mt-6 space-y-4 text-base leading-relaxed text-ink-600">
               <p>Patel Sons began when Himanshu Verma, a site engineer for fifteen years, decided to build the kind of homes he had always wanted to work on: honest structures, finished properly, delivered when promised.</p>
-              <p>The first project was eight row houses in Shela. Every one of those families still lives there. That project taught us the rule we still follow: build like the buyer is going to inspect every brick, because they should.</p>
+              <p>The first project was eight row houses in Sushant Golf City. Every one of those families still lives there. That project taught us the rule we still follow: build like the buyer is going to inspect every brick, because they should.</p>
               <p>Today Himanshu Verma and co-partner Abhishek run projects and contracts between them, and the founder still visits every site on Saturdays. We develop our own row house communities and apartment buildings, and we build private homes for clients on their own plots on labour-rate or with-material terms.</p>
             </div>
             <SocialLinks className="mt-8 [&_a]:border-ink-200 [&_a]:bg-ink-900" />

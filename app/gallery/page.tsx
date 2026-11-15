@@ -8,8 +8,8 @@ import { breadcrumbJsonLd, pageMeta } from "@/lib/seo";
 import { projects } from "@/content/projects";
 
 export const metadata: Metadata = pageMeta({
-  title: "Construction Site Gallery | Patel Sons Ahmedabad",
-  description: "Photos from Patel Sons construction sites: ongoing row house communities, apartment towers and private contract homes across Ahmedabad.",
+  title: "Construction Site Gallery | Patel Sons Lucknow",
+  description: "Photos from Patel Sons construction sites: ongoing row house communities, apartment towers and private contract homes across Lucknow.",
   path: "/gallery",
   image: projects[2].cover,
 });

@@ -17,10 +17,10 @@ import { BookOpen, Headset, PackageSearch, ArrowUpRight } from "lucide-react";
 const svc = services.find((s) => s.slug === "building-materials")!;
 
 export const metadata: Metadata = pageMeta({
-  title: "Buy Building Materials in Ahmedabad | Cement, TMT Steel, Bricks, Tiles",
+  title: "Buy Building Materials in Lucknow | Cement, TMT Steel, Bricks, Tiles",
   description: svc.seoDescription,
   path: "/materials",
-  keywords: ["buy cement online Ahmedabad", "TMT steel price Ahmedabad", "building material supplier Ahmedabad", "construction material shop near me"],
+  keywords: ["buy cement online Lucknow", "TMT steel price Lucknow", "building material supplier Lucknow", "construction material shop near me"],
 });
 
 export default function MaterialsPage() {

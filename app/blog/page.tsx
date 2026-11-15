@@ -8,10 +8,10 @@ import { breadcrumbJsonLd, pageMeta, SITE_URL } from "@/lib/seo";
 import { posts } from "@/content/blog";
 
 export const metadata: Metadata = pageMeta({
-  title: "Construction & Home Buying Guides for Ahmedabad",
-  description: "Practical guides from Patel Sons: construction cost per sq ft in Ahmedabad, labour vs material contracts, choosing a contractor, RERA checklists and row house vs apartment advice.",
+  title: "Construction & Home Buying Guides for Lucknow",
+  description: "Practical guides from Patel Sons: construction cost per sq ft in Lucknow, labour vs material contracts, choosing a contractor, RERA checklists and row house vs apartment advice.",
   path: "/blog",
-  keywords: ["construction blog Ahmedabad", "home building guide Gujarat", "house construction tips India"],
+  keywords: ["construction blog Lucknow", "home building guide Uttar Pradesh", "house construction tips India"],
 });
 
 export default function BlogPage() {
@@ -19,7 +19,7 @@ export default function BlogPage() {
   return (
     <>
       <JsonLd data={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Blog", path: "/blog" }]), { "@context": "https://schema.org", "@type": "Blog", name: "Patel Sons Blog", url: `${SITE_URL}/blog`, publisher: { "@id": `${SITE_URL}/#organization` }, blogPost: posts.map((p) => ({ "@type": "BlogPosting", headline: p.title, url: `${SITE_URL}/blog/${p.slug}`, datePublished: p.date })) }]} />
-      <PageHero eyebrow="Guides & insights" title="Build smarter. Buy smarter." text="Costs, contracts, checklists and honest advice from twenty years of building homes in Ahmedabad." image={first.cover} crumbs={[{ name: "Home", path: "/" }, { name: "Blog", path: "/blog" }]} />
+      <PageHero eyebrow="Guides & insights" title="Build smarter. Buy smarter." text="Costs, contracts, checklists and honest advice from twenty years of building homes in Lucknow." image={first.cover} crumbs={[{ name: "Home", path: "/" }, { name: "Blog", path: "/blog" }]} />
       <section className="py-20 lg:py-28">
         <Container>
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">

@@ -10,5 +10,5 @@ export function generateStaticParams() {
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const s = services.find((x) => x.slug === slug);
-  return ogCard({ eyebrow: "Service · Ahmedabad", title: s?.title ?? "Our services", subtitle: s?.short, image: s?.image });
+  return ogCard({ eyebrow: "Service · Lucknow", title: s?.title ?? "Our services", subtitle: s?.short, image: s?.image });
 }

@@ -20,7 +20,7 @@ export function MaterialsStrip() {
               <ul className="mt-5 space-y-2 text-sm text-ink-200">
                 <li className="flex items-center gap-2"><Wallet className="h-4 w-4 text-brand-400" /> Contractor volume rates</li>
                 <li className="flex items-center gap-2"><BadgeCheck className="h-4 w-4 text-brand-400" /> Grade checked by our engineer</li>
-                <li className="flex items-center gap-2"><Truck className="h-4 w-4 text-brand-400" /> Site delivery across Ahmedabad</li>
+                <li className="flex items-center gap-2"><Truck className="h-4 w-4 text-brand-400" /> Site delivery across Lucknow</li>
               </ul>
               <Button href="/materials" className="mt-6">Browse catalogue <ArrowRight className="h-4 w-4" /></Button>
             </div>

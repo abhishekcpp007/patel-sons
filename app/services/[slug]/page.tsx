@@ -66,7 +66,7 @@ export default async function ServicePage({ params }: { params: Promise<Params> 
       <section className="py-20 lg:py-28">
         <Container className="grid grid-cols-1 gap-14 lg:grid-cols-5">
           <article className="space-y-6 lg:col-span-3">
-            <h2 className="text-3xl font-bold tracking-tight text-ink-900">{s.title} in Ahmedabad</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-ink-900">{s.title} in Lucknow</h2>
             {s.longDescription.map((p) => <p key={p.slice(0, 30)} className="text-base leading-relaxed text-ink-600">{p}</p>)}
             <h3 className="pt-4 text-xl font-bold text-ink-900">What&apos;s included</h3>
             <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -81,10 +81,10 @@ export default async function ServicePage({ params }: { params: Promise<Params> 
               </>
             )}
             <h3 className="pt-4 text-xl font-bold text-ink-900">Areas we serve</h3>
-            <p className="text-sm text-ink-600">{s.title} across Ahmedabad, including {areas.map((a, i) => <span key={a.slug}><Link href={`/areas/${a.slug}`} className="font-semibold text-brand-600 hover:underline">{a.name}</Link>{i < areas.length - 1 ? ", " : "."}</span>)}</p>
+            <p className="text-sm text-ink-600">{s.title} across Lucknow, including {areas.map((a, i) => <span key={a.slug}><Link href={`/areas/${a.slug}`} className="font-semibold text-brand-600 hover:underline">{a.name}</Link>{i < areas.length - 1 ? ", " : "."}</span>)}</p>
           </article>
           <aside className="space-y-6 lg:col-span-2">
-            <Reveal className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-soft"><Image src={s.image} alt={`${s.title} by Patel Sons, Ahmedabad`} fill sizes="(min-width:1024px) 40vw, 100vw" className="object-cover" /></Reveal>
+            <Reveal className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-soft"><Image src={s.image} alt={`${s.title} by Patel Sons, Lucknow`} fill sizes="(min-width:1024px) 40vw, 100vw" className="object-cover" /></Reveal>
             <div className="rounded-3xl bg-ink-900 p-6 text-white">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-400">Other services</p>
               <ul className="mt-3 divide-y divide-white/10">

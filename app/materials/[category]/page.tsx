@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const { category } = await params;
   const c = getCategory(category);
   if (!c) return {};
-  return pageMeta({ title: `Buy ${c.name} in Ahmedabad at Contractor Rates`, description: c.seoDescription, path: `/materials/${c.slug}`, keywords: [`${c.name.toLowerCase()} price Ahmedabad`, `buy ${c.name.toLowerCase()} Ahmedabad`] });
+  return pageMeta({ title: `Buy ${c.name} in Lucknow at Contractor Rates`, description: c.seoDescription, path: `/materials/${c.slug}`, keywords: [`${c.name.toLowerCase()} price Lucknow`, `buy ${c.name.toLowerCase()} Lucknow`] });
 }
 
 export default async function CategoryPage({ params }: { params: Promise<Params> }) {
@@ -39,7 +39,7 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
           { "@context": "https://schema.org", "@type": "ItemList", name: c.name, itemListElement: items.map((m, i) => ({ "@type": "ListItem", position: i + 1, item: { "@type": "Product", name: m.name, brand: { "@type": "Brand", name: m.brand }, description: m.spec, offers: { "@type": "Offer", price: m.price, priceCurrency: "INR", availability: "https://schema.org/InStock", seller: { "@id": `${SITE_URL}/#organization` } } } })) },
         ]}
       />
-      <PageHero eyebrow="Building materials" title={`${c.name} in Ahmedabad at contractor rates`} text={c.blurb} image="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=80" crumbs={[{ name: "Home", path: "/" }, { name: "Materials", path: "/materials" }, { name: c.name, path: `/materials/${c.slug}` }]} />
+      <PageHero eyebrow="Building materials" title={`${c.name} in Lucknow at contractor rates`} text={c.blurb} image="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=80" crumbs={[{ name: "Home", path: "/" }, { name: "Materials", path: "/materials" }, { name: c.name, path: `/materials/${c.slug}` }]} />
       <section className="py-14 lg:py-20">
         <Container>
           {related.length > 0 && (

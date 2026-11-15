@@ -10,7 +10,7 @@ export function AreasStrip() {
     <section className="py-20 lg:py-24">
       <Container>
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-          <SectionHeading eyebrow="Areas we serve" title="Local builders in every part of Ahmedabad" text="Plot rates, nearby projects and the services people ask for most in each locality." />
+          <SectionHeading eyebrow="Areas we serve" title="Local builders in every part of Lucknow" text="Plot rates, nearby projects and the services people ask for most in each locality." />
           <Link href="/areas" className="group inline-flex items-center gap-2 text-sm font-semibold text-ink-900">All areas <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link>
         </div>
         <Reveal className="mt-10 flex flex-wrap gap-2.5">

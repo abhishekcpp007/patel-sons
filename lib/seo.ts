@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import { company } from "@/content/company";
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://patelsons.in").replace(/\/$/, "");
-export const CITY = "Ahmedabad";
-export const GEO = { latitude: 23.0225, longitude: 72.5714 };
+export const CITY = "Lucknow";
+export const GEO = { latitude: 26.8467, longitude: 81.0200 };
 
 export const keywords = [
-  "construction company Ahmedabad",
-  "row house builders Ahmedabad",
-  "residential building contractor Ahmedabad",
+  "construction company Lucknow",
+  "row house builders Lucknow",
+  "residential building contractor Lucknow",
   "labour rate contract construction",
   "with material construction contract",
-  "turnkey house construction Ahmedabad",
-  "construction cost per sq ft Ahmedabad",
+  "turnkey house construction Lucknow",
+  "construction cost per sq ft Lucknow",
   "Patel Sons construction",
 ];
 
@@ -65,7 +65,7 @@ export function organizationJsonLd() {
     "@id": `${SITE_URL}/#organization`,
     name: company.name,
     legalName: company.legalName,
-    alternateName: "Patel Sons Construction Ahmedabad",
+    alternateName: "Patel Sons Construction Lucknow",
     url: SITE_URL,
     logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.svg` },
     image: `${SITE_URL}/opengraph-image`,
@@ -77,20 +77,20 @@ export function organizationJsonLd() {
     email: company.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Plot 12, Industrial Estate Road, Near City Mall",
+      streetAddress: "Khargapur, Gomti Nagar",
       addressLocality: CITY,
-      addressRegion: "Gujarat",
-      postalCode: "380015",
+      addressRegion: "Uttar Pradesh",
+      postalCode: "226010",
       addressCountry: "IN",
     },
     geo: { "@type": "GeoCoordinates", ...GEO },
     hasMap: `https://www.google.com/maps?q=${encodeURIComponent(company.address)}`,
-    areaServed: [{ "@type": "City", name: CITY }, { "@type": "State", name: "Gujarat" }],
+    areaServed: [{ "@type": "City", name: CITY }, { "@type": "State", name: "Uttar Pradesh" }],
     openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], opens: "09:30", closes: "19:00" }],
     priceRange: "₹₹",
     currenciesAccepted: "INR",
     paymentAccepted: "Bank transfer, Cheque, UPI",
-    contactPoint: [{ "@type": "ContactPoint", telephone: company.phone, contactType: "sales", areaServed: "IN", availableLanguage: ["English", "Hindi", "Gujarati"] }],
+    contactPoint: [{ "@type": "ContactPoint", telephone: company.phone, contactType: "sales", areaServed: "IN", availableLanguage: ["English", "Hindi"] }],
     sameAs: [company.social.instagram.url, company.social.facebook.url, company.social.youtube.url],
     knowsAbout: ["Row house construction", "Apartment building construction", "Labour rate construction contracts", "Turnkey with-material construction", "RERA registered residential projects"],
     makesOffer: [

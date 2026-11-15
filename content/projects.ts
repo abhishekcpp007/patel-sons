@@ -36,8 +36,8 @@ export const projects: Project[] = [
     tagline: "Premium 3 & 4 BHK row houses in a gated community",
     type: "row-house",
     status: "ongoing",
-    location: "South Bopal",
-    city: "Ahmedabad",
+    location: "Gomti Nagar Extension",
+    city: "Lucknow",
     cover: u("1600585154340-be6161a56a0c"),
     gallery: [
       u("1600585154340-be6161a56a0c"),
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     progress: 62,
     startDate: "Jan 2025",
     completionDate: "Dec 2026",
-    rera: "GJ/AHM/2025/DUMMY-0142",
+    rera: "UPRERAPRJ/2025/DUMMY-0142",
     description:
       "Shivalik Greens is a gated row house community of 48 independent homes with private gardens, terrace decks and a central clubhouse. Every home is designed around natural light, cross-ventilation and a double-height living space.",
     highlights: ["Private garden & terrace", "Vastu-compliant layouts", "Double-height living room", "Gated with 24×7 security"],
@@ -66,7 +66,7 @@ export const projects: Project[] = [
       { label: "Electrical", value: "Concealed copper wiring, modular switches" },
       { label: "Plumbing", value: "CPVC piping, Jaquar / equivalent fittings" },
     ],
-    mapQuery: "South Bopal, Ahmedabad",
+    mapQuery: "Gomti Nagar Extension, Lucknow",
   },
   {
     slug: "patel-heights",
@@ -74,8 +74,8 @@ export const projects: Project[] = [
     tagline: "14-storey residential tower with 2 & 3 BHK apartments",
     type: "building",
     status: "ongoing",
-    location: "Vastral",
-    city: "Ahmedabad",
+    location: "Chinhat",
+    city: "Lucknow",
     cover: u("1545324418-cc1a3fa10c00"),
     gallery: [
       u("1545324418-cc1a3fa10c00"),
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     progress: 38,
     startDate: "Jun 2025",
     completionDate: "Mar 2027",
-    rera: "GJ/AHM/2025/DUMMY-0198",
+    rera: "UPRERAPRJ/2025/DUMMY-0198",
     description:
       "Patel Heights brings well-planned 2 and 3 BHK apartments with 3-side open layouts, two high-speed lifts per wing and a rooftop lounge. Located minutes from the metro, schools and hospitals.",
     highlights: ["3-side open apartments", "Rooftop lounge & garden", "2 lifts per wing", "Metro at 600 m"],
@@ -104,7 +104,7 @@ export const projects: Project[] = [
       { label: "Electrical", value: "Concealed ISI wiring, AC points in all bedrooms" },
       { label: "Lifts", value: "2 automatic lifts per wing" },
     ],
-    mapQuery: "Vastral, Ahmedabad",
+    mapQuery: "Chinhat, Lucknow",
   },
   {
     slug: "sarthak-villas",
@@ -112,8 +112,8 @@ export const projects: Project[] = [
     tagline: "Completed row house enclave of 32 luxury villas",
     type: "row-house",
     status: "completed",
-    location: "Shela",
-    city: "Ahmedabad",
+    location: "Sushant Golf City",
+    city: "Lucknow",
     cover: u("1568605114967-8130f3a36994"),
     gallery: [
       u("1568605114967-8130f3a36994"),
@@ -129,7 +129,7 @@ export const projects: Project[] = [
     progress: 100,
     startDate: "Mar 2022",
     completionDate: "Aug 2024",
-    rera: "GJ/AHM/2022/DUMMY-0077",
+    rera: "UPRERAPRJ/2022/DUMMY-0077",
     description:
       "Sarthak Villas was delivered two months ahead of schedule. 32 independent villas with Italian marble flooring, home automation provision and a private clubhouse. Fully occupied community today.",
     highlights: ["Delivered 2 months early", "Italian marble flooring", "Home automation ready", "Fully occupied"],
@@ -140,7 +140,7 @@ export const projects: Project[] = [
       { label: "Kitchen", value: "Modular kitchen with chimney & hob" },
       { label: "Doors & windows", value: "Teak wood doors, UPVC glazing" },
     ],
-    mapQuery: "Shela, Ahmedabad",
+    mapQuery: "Sushant Golf City, Lucknow",
   },
   {
     slug: "ambika-residency",
@@ -148,8 +148,8 @@ export const projects: Project[] = [
     tagline: "Completed 7-storey building with 56 compact 2 BHK flats",
     type: "building",
     status: "completed",
-    location: "Nikol",
-    city: "Ahmedabad",
+    location: "Jankipuram",
+    city: "Lucknow",
     cover: u("1515263487990-61b07816b324"),
     gallery: [
       u("1515263487990-61b07816b324"),
@@ -163,7 +163,7 @@ export const projects: Project[] = [
     progress: 100,
     startDate: "Oct 2021",
     completionDate: "Jan 2024",
-    rera: "GJ/AHM/2021/DUMMY-0031",
+    rera: "UPRERAPRJ/2021/DUMMY-0031",
     description:
       "An affordable yet well-finished 2 BHK building with wide passages, ample parking and a terrace garden. Handed over with full OC and society formation complete.",
     highlights: ["Handed over with OC", "Terrace garden", "Ample 2-wheeler & car parking", "Society formed at handover"],
@@ -173,7 +173,7 @@ export const projects: Project[] = [
       { label: "Flooring", value: "600×600 vitrified tiles" },
       { label: "Kitchen", value: "Granite platform, SS sink" },
     ],
-    mapQuery: "Nikol, Ahmedabad",
+    mapQuery: "Jankipuram, Lucknow",
   },
   {
     slug: "mehta-bungalow",
@@ -181,8 +181,8 @@ export const projects: Project[] = [
     tagline: "Private with-material contract: 4,200 sq. ft. bungalow",
     type: "contract",
     status: "ongoing",
-    location: "Thaltej",
-    city: "Ahmedabad",
+    location: "Gomti Nagar",
+    city: "Lucknow",
     cover: u("1580587771525-78b9dba3b914"),
     gallery: [
       u("1580587771525-78b9dba3b914"),
@@ -208,7 +208,7 @@ export const projects: Project[] = [
       { label: "Structure", value: "RCC frame, M25 grade concrete, Fe500D TMT" },
       { label: "Finishing", value: "Italian marble, teak doors, modular kitchen" },
     ],
-    mapQuery: "Thaltej, Ahmedabad",
+    mapQuery: "Gomti Nagar, Lucknow",
   },
   {
     slug: "desai-farmhouse",
@@ -216,8 +216,8 @@ export const projects: Project[] = [
     tagline: "Labour-rate contract: weekend farmhouse with pool",
     type: "contract",
     status: "upcoming",
-    location: "Sanand",
-    city: "Ahmedabad",
+    location: "Sultanpur Road",
+    city: "Lucknow",
     cover: u("1600047509807-ba8f99d2cdde"),
     gallery: [
       u("1600047509807-ba8f99d2cdde"),
@@ -240,7 +240,7 @@ export const projects: Project[] = [
       { label: "Scope", value: "Structure, masonry, plaster, flooring, waterproofing" },
       { label: "Supervision", value: "Full-time site supervisor + weekly engineer visit" },
     ],
-    mapQuery: "Sanand, Gujarat",
+    mapQuery: "Sultanpur Road, Uttar Pradesh",
   },
 ];
 

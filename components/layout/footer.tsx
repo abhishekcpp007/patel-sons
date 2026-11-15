@@ -58,7 +58,7 @@ export function Footer() {
               </li>
               <li className="flex gap-3">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-brand-400" />
-                <a href={company.phoneHref} className="hover:text-white">{company.phone}</a>
+                <a href={company.phoneHref} className="hover:text-white">{company.phone}</a>, <a href={company.phone2Href} className="hover:text-white">{company.phone2}</a>
               </li>
               <li className="flex gap-3">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-brand-400" />

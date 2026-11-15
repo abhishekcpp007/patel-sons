@@ -22,7 +22,7 @@ export function WhyUs() {
           </div>
           <div className="absolute -bottom-6 -right-4 hidden max-w-[260px] rounded-3xl bg-brand-500 p-6 text-white shadow-glow sm:block lg:-right-10">
             <p className="font-display text-4xl font-extrabold">20+</p>
-            <p className="mt-1 text-sm font-medium text-brand-100">years building homes families trust across Ahmedabad.</p>
+            <p className="mt-1 text-sm font-medium text-brand-100">years building homes families trust across Lucknow.</p>
           </div>
         </Reveal>
         <div>

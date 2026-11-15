@@ -11,17 +11,17 @@ import { areas } from "@/content/areas";
 import { services } from "@/content/services";
 
 export const metadata: Metadata = pageMeta({
-  title: "Construction Services Across Ahmedabad | Areas We Serve",
-  description: "Patel Sons builds row houses, apartments and private homes in Bopal, South Bopal, Shela, Thaltej, Satellite, Gota, Chandkheda, Vastral, Nikol and Sanand. Local rates and projects for each area.",
+  title: "Construction Services Across Lucknow | Areas We Serve",
+  description: "Patel Sons builds row houses, apartments and private homes in Indira Nagar, Gomti Nagar Extension, Sushant Golf City, Gomti Nagar, Hazratganj, Aliganj, Vrindavan Yojana, Chinhat, Jankipuram and Sultanpur Road. Local rates and projects for each area.",
   path: "/areas",
-  keywords: ["construction contractor near me Ahmedabad", "builders in Bopal", "house construction Shela", "contractor Thaltej"],
+  keywords: ["construction contractor near me Lucknow", "builders in Indira Nagar", "house construction Sushant Golf City", "contractor Gomti Nagar"],
 });
 
 export default function AreasPage() {
   return (
     <>
       <JsonLd data={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Areas", path: "/areas" }]), { "@context": "https://schema.org", "@type": "ItemList", itemListElement: areas.map((a, i) => ({ "@type": "ListItem", position: i + 1, name: a.name, url: `${SITE_URL}/areas/${a.slug}` })) }]} />
-      <PageHero eyebrow="Areas we serve" title="Building across Ahmedabad, one locality at a time" text="Pick your area to see plot rates, our projects nearby, the services most people ask for there, and answers to local questions." image="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=2000&q=80" crumbs={[{ name: "Home", path: "/" }, { name: "Areas", path: "/areas" }]} />
+      <PageHero eyebrow="Areas we serve" title="Building across Lucknow, one locality at a time" text="Pick your area to see plot rates, our projects nearby, the services most people ask for there, and answers to local questions." image="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=2000&q=80" crumbs={[{ name: "Home", path: "/" }, { name: "Areas", path: "/areas" }]} />
       <section className="py-20 lg:py-28">
         <Container>
           <Stagger className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

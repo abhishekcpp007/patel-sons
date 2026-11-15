@@ -33,7 +33,7 @@ export function Hero() {
       <Container className="flex min-h-[100svh] flex-col justify-center pb-24 pt-32">
         <motion.p {...fade(0.1)} className="mb-5 inline-flex w-fit items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-brand-300 backdrop-blur">
           <span className="h-1.5 w-1.5 rounded-full bg-brand-400" />
-          Since {company.founded} · Ahmedabad
+          Since {company.founded} · Lucknow
         </motion.p>
 
         <motion.h1 {...fade(0.2)} className="max-w-4xl text-balance text-[2.75rem] font-extrabold leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">

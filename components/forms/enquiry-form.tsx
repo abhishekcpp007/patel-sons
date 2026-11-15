@@ -287,7 +287,7 @@ export function EnquiryForm({
               <div className={grid}>
                 <div>
                   <label className={label} htmlFor="q-delivery">Delivery site address</label>
-                  <input id="q-delivery" className={field} placeholder="Plot no., area, Ahmedabad" {...register("deliveryLocation")} />
+                  <input id="q-delivery" className={field} placeholder="Plot no., area, Lucknow" {...register("deliveryLocation")} />
                 </div>
                 <div>
                   <label className={label} htmlFor="q-date3">Needed by <span className={opt}>(optional)</span></label>

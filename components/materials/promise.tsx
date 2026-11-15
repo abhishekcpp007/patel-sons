@@ -7,7 +7,7 @@ import { Stagger, StaggerItem } from "@/components/ui/reveal";
 export const promises = [
   { Icon: ShieldCheck, t: "100% genuine, branded products", s: "Every bag, bar, box and bucket comes from the authorised dealer with a GST invoice in your name. No re-rolled steel, no re-bagged cement, ever." },
   { Icon: Scale, t: "Quantity guarantee", s: "Steel is weighed on a calibrated scale, bricks and tiles are counted, sand is measured by trolley volume, all in front of you. Any shortfall is made good within 24 hours, free." },
-  { Icon: BadgeIndianRupee, t: "Market-standard rates", s: "Our rates track the Ahmedabad dealer market weekly. Found the same brand and grade cheaper from an authorised dealer? Show us the quote and we match it." },
+  { Icon: BadgeIndianRupee, t: "Market-standard rates", s: "Our rates track the Lucknow dealer market weekly. Found the same brand and grade cheaper from an authorised dealer? Show us the quote and we match it." },
   { Icon: PackageCheck, t: "Grade checked by an engineer", s: "A Patel Sons engineer confirms the grade and specification matches your stage of construction before dispatch, and inspects at delivery." },
   { Icon: Clock, t: "On-time delivery or delivery is free", s: "You get a delivery slot when we confirm the order. If we miss it without calling ahead, the delivery charge is waived." },
   { Icon: Headset, t: "Help desk with a ticket number", s: "Damaged, short, wrong or late? Raise a complaint online, get a ticket number, a call within 2 working hours and resolution within 24 hours." },

@@ -16,12 +16,12 @@ import { company } from "@/content/company";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Construction Company in Ahmedabad | Row Houses & Contractors",
+    title: "Construction Company in Lucknow | Row Houses & Contractors",
     description:
-      "Patel Sons builds row houses and apartment buildings in Ahmedabad and takes private construction contracts on labour-rate and with-material (turnkey) basis. Fixed per sq. ft. rates, RERA registered, 20+ years.",
+      "Patel Sons builds row houses and apartment buildings in Lucknow and takes private construction contracts on labour-rate and with-material (turnkey) basis. Fixed per sq. ft. rates, RERA registered, 20+ years.",
     path: "/",
   }),
-  title: { absolute: "Patel Sons | Construction Company in Ahmedabad: Row Houses, Buildings & Contracts" },
+  title: { absolute: "Patel Sons | Construction Company in Lucknow: Row Houses, Buildings & Contracts" },
 };
 
 export default function HomePage() {

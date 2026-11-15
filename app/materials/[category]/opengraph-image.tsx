@@ -10,5 +10,5 @@ export function generateStaticParams() {
 export default async function Image({ params }: { params: Promise<{ category: string }> }) {
   const { category } = await params;
   const c = getCategory(category);
-  return ogCard({ eyebrow: "Building materials · Contractor rates", title: c ? `${c.name} in Ahmedabad` : "Building materials", subtitle: c?.blurb });
+  return ogCard({ eyebrow: "Building materials · Contractor rates", title: c ? `${c.name} in Lucknow` : "Building materials", subtitle: c?.blurb });
 }

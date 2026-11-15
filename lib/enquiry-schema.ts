@@ -72,7 +72,7 @@ export const timeOptions = [
 export const guidanceOptions = [
   { value: "plot-buying", label: "Buying a plot or land" },
   { value: "legal-check", label: "Title / legal due diligence" },
-  { value: "approvals", label: "AUDA/AMC or NA approvals" },
+  { value: "approvals", label: "LDA/LMC or NA approvals" },
   { value: "cost-estimate", label: "Construction cost estimate / BOQ review" },
   { value: "contractor-audit", label: "Audit my contractor's work" },
   { value: "investment", label: "Investment / resale advice" },

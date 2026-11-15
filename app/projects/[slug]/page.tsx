@@ -60,7 +60,7 @@ export default async function ProjectPage({ params }: { params: Promise<Params> 
                 image: p.gallery,
                 url: `${SITE_URL}/projects/${p.slug}`,
                 brand: { "@id": `${SITE_URL}/#organization` },
-                address: { "@type": "PostalAddress", addressLocality: p.location, addressRegion: "Gujarat", addressCountry: "IN" },
+                address: { "@type": "PostalAddress", addressLocality: p.location, addressRegion: "Uttar Pradesh", addressCountry: "IN" },
                 ...(p.priceFrom ? { offers: { "@type": "Offer", price: p.priceFrom, priceCurrency: "INR", availability: p.status === "completed" ? "https://schema.org/SoldOut" : "https://schema.org/InStock" } } : {}),
               }
             : {

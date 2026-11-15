@@ -11,9 +11,9 @@ import { projects } from "@/content/projects";
 import { buyerFaqs } from "@/content/faqs";
 
 export const metadata: Metadata = pageMeta({
-  title: "Row Houses & Apartments in Ahmedabad | Patel Sons Projects",
+  title: "Row Houses & Apartments in Lucknow | Patel Sons Projects",
   description:
-    "Explore Patel Sons projects: Shivalik Greens row houses in South Bopal, Patel Heights apartments in Vastral, and completed communities in Shela and Nikol. RERA registered.",
+    "Explore Patel Sons projects: Shivalik Greens row houses in Gomti Nagar Extension, Patel Heights apartments in Chinhat, and completed communities in Sushant Golf City and Jankipuram. RERA registered.",
   path: "/projects",
   image: projects[0].cover,
 });
@@ -34,7 +34,7 @@ export default function ProjectsPage() {
       />
       <PageHero
         eyebrow="Projects"
-        title="Row houses and apartments across Ahmedabad"
+        title="Row houses and apartments across Lucknow"
         text="Ongoing sites with live progress, completed communities you can visit, and private contract homes we are building for clients."
         image={projects[1].cover}
         crumbs={[{ name: "Home", path: "/" }, { name: "Projects", path: "/projects" }]}

@@ -34,7 +34,7 @@ export default function SupportPage() {
             <div className="rounded-3xl bg-ink-900 p-6 text-white">
               <h2 className="text-lg font-bold">Talk to a person now</h2>
               <ul className="mt-4 space-y-3 text-sm">
-                <li className="flex gap-3"><Phone className="mt-0.5 h-4 w-4 text-brand-400" /><div><p className="text-ink-300">Support line</p><a href={company.phoneHref} className="font-semibold hover:text-brand-400">{company.phone}</a></div></li>
+                <li className="flex gap-3"><Phone className="mt-0.5 h-4 w-4 text-brand-400" /><div><p className="text-ink-300">Support line</p><a href={company.phoneHref} className="block font-semibold hover:text-brand-400">{company.phone}</a><a href={company.phone2Href} className="block font-semibold hover:text-brand-400">{company.phone2}</a></div></li>
                 <li className="flex gap-3"><WhatsAppIcon className="mt-0.5 h-4 w-4 text-[#25D366]" /><div><p className="text-ink-300">WhatsApp (send photos here)</p><a href={`https://wa.me/${company.whatsapp}?text=${encodeURIComponent("Hi, I have an issue with my material order. Ticket/Order no: ")}`} target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-brand-400">Chat with support</a></div></li>
                 <li className="flex gap-3"><Clock className="mt-0.5 h-4 w-4 text-brand-400" /><div><p className="text-ink-300">Hours</p><p className="font-semibold">{company.hours}</p></div></li>
               </ul>

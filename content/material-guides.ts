@@ -39,7 +39,7 @@ export const guides: Guide[] = [
     summary: "Which grade and diameters your home needs, how to verify ISI marking and weight per metre on delivery, and how to store bars to avoid rust.",
     cover: u("1504307651254-35680f356dfd"),
     sections: [
-      { h: "Grades", items: ["Fe500D: 'D' means ductile, better for earthquake zones. Ahmedabad is zone III, so insist on Fe500D or 550SD.", "Fe550SD gives higher strength, letting engineers reduce steel in beams and columns.", "Avoid re-rolled or unbranded bars; they fail bend tests."] },
+      { h: "Grades", items: ["Fe500D: 'D' means ductile, better for earthquake zones. Lucknow is zone III, so insist on Fe500D or 550SD.", "Fe550SD gives higher strength, letting engineers reduce steel in beams and columns.", "Avoid re-rolled or unbranded bars; they fail bend tests."] },
       { h: "Where each size goes", items: ["8 mm: stirrups, slab distribution steel.", "10 and 12 mm: slab main bars, lintels, chajja.", "12 to 16 mm: beams and columns of G+1/G+2 homes.", "20 and 25 mm: columns and footings of buildings above G+3."] },
       { h: "Check on delivery", items: ["Look for the ISI mark, brand name and grade rolled onto every bar.", "Weigh a 1 m sample: 8 mm = 0.395 kg, 10 mm = 0.617, 12 mm = 0.888, 16 mm = 1.58, 20 mm = 2.47. Under-weight bars are under-diameter.", "Bend a bar 180° by hand with a pipe: no cracks on the outer surface.", "We weigh every delivery on a calibrated scale in front of you."] },
       { h: "Storage", items: ["Keep bars on wooden sleepers off the ground, covered from rain.", "Light surface rust is fine; flaky rust that leaves pits must be rejected."] },
@@ -92,7 +92,7 @@ export const guides: Guide[] = [
     summary: "When autoclaved aerated concrete blocks make sense, how to lay them with thin-bed adhesive, and how to fix fittings into them.",
     cover: u("1590650153855-d9e808231d41"),
     sections: [
-      { h: "Benefits", items: ["One-third the weight of clay brick walls: smaller beams and foundations on taller buildings.", "Thermal insulation keeps rooms 3 to 5 °C cooler in Ahmedabad summers.", "One 600×200×150 block replaces about 7 bricks; masonry is three times faster."] },
+      { h: "Benefits", items: ["One-third the weight of clay brick walls: smaller beams and foundations on taller buildings.", "Thermal insulation keeps rooms 3 to 5 °C cooler in Lucknow summers.", "One 600×200×150 block replaces about 7 bricks; masonry is three times faster."] },
       { h: "Laying", items: ["Use AAC block adhesive (thin-bed, 3 mm joints), not conventional mortar, or you lose the insulation and get cracks.", "Start on a 25 mm cement-mortar bed over the plinth or beam.", "Leave a 15 mm gap under beams and fill with compressible material to avoid load cracks.", "Fix chicken mesh at all RCC junctions before plaster; use a 12 mm plaster with polymer-modified mortar."] },
       { h: "Fixing things into AAC", items: ["Use AAC-specific anchors or chemical anchors for heavy items like geysers and kitchen cabinets.", "Chase electrical conduits with a router, not a hammer."] },
     ],
@@ -172,7 +172,7 @@ export const guides: Guide[] = [
     title: "Paint & waterproofing: primers, coats and stopping the monsoon leaks",
     material: "Paints & Waterproofing",
     category: "paints-waterproofing",
-    summary: "The right sequence of putty, primer and emulsion, exterior paint choices for Ahmedabad heat, and terrace waterproofing that lasts.",
+    summary: "The right sequence of putty, primer and emulsion, exterior paint choices for Lucknow heat, and terrace waterproofing that lasts.",
     cover: u("1600210492486-724fe5c67fb0"),
     sections: [
       { h: "Interior sequence", items: ["Cure plaster 28 days, then 2 coats of putty, sanding, 1 coat primer, 2 coats emulsion.", "Royale / Velvet Touch for living areas; Tractor Emulsion for budget; washable paint in kids' rooms and kitchen."] },

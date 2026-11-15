@@ -26,10 +26,10 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const a = getArea(area);
   if (!a) return {};
   return pageMeta({
-    title: `Construction Contractor in ${a.name}, Ahmedabad | Row Houses & Home Building`,
+    title: `Construction Contractor in ${a.name}, Lucknow | Row Houses & Home Building`,
     description: `${a.intro} Patel Sons builds row houses, apartments and private homes in ${a.name} on labour-rate or with-material contracts from ₹1,750/sq ft. Free site visit.`,
     path: `/areas/${a.slug}`,
-    keywords: [`construction contractor ${a.name}`, `builders in ${a.name}`, `house construction ${a.name} Ahmedabad`, `row houses ${a.name}`],
+    keywords: [`construction contractor ${a.name}`, `builders in ${a.name}`, `house construction ${a.name} Lucknow`, `row houses ${a.name}`],
   });
 }
 
@@ -44,7 +44,7 @@ export default async function AreaPage({ params }: { params: Promise<Params> }) 
 
   return (
     <>
-      <JsonLd data={[breadcrumbJsonLd(crumbs), faqJsonLd(a.faqs), serviceJsonLd({ name: `House construction in ${a.name}`, description: a.why, path: `/areas/${a.slug}`, area: `${a.name}, Ahmedabad`, offers: materialPackages.map((p) => ({ name: `With material — ${p.name}`, price: p.rate })) })]} />
+      <JsonLd data={[breadcrumbJsonLd(crumbs), faqJsonLd(a.faqs), serviceJsonLd({ name: `House construction in ${a.name}`, description: a.why, path: `/areas/${a.slug}`, area: `${a.name}, Lucknow`, offers: materialPackages.map((p) => ({ name: `With material — ${p.name}`, price: p.rate })) })]} />
       <PageHero eyebrow={a.zone} title={`Construction contractor in ${a.name}`} text={a.intro} image={nearby[0]?.cover ?? "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80"} crumbs={crumbs}>
         <div className="mt-8 flex flex-wrap gap-3">
           <OpenQueryButton preset={{ queryType: "build" }} size="lg">Free site visit in {a.name}</OpenQueryButton>
@@ -74,7 +74,7 @@ export default async function AreaPage({ params }: { params: Promise<Params> }) 
             <div className="flex flex-wrap gap-2">{a.landmarks.map((l) => <span key={l} className="inline-flex items-center gap-1 rounded-full bg-ink-50 px-3 py-1 text-xs font-medium text-ink-600"><MapPin className="h-3 w-3 text-brand-500" /> {l}</span>)}</div>
           </article>
           <aside className="space-y-6 lg:col-span-2">
-            <div className="overflow-hidden rounded-3xl ring-1 ring-ink-900/5"><iframe title={`${a.name} map`} src={`https://www.google.com/maps?q=${encodeURIComponent(`${a.name}, Ahmedabad`)}&output=embed`} className="h-64 w-full" loading="lazy" /></div>
+            <div className="overflow-hidden rounded-3xl ring-1 ring-ink-900/5"><iframe title={`${a.name} map`} src={`https://www.google.com/maps?q=${encodeURIComponent(`${a.name}, Lucknow`)}&output=embed`} className="h-64 w-full" loading="lazy" /></div>
             <div className="rounded-3xl bg-ink-900 p-6 text-white">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-400">Other areas</p>
               <ul className="mt-3 grid grid-cols-2 gap-x-4">

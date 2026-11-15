@@ -16,7 +16,7 @@ export default function TermsPage() {
         <h2>Estimates</h2>
         <p>Cost and EMI calculators provide approximate figures for guidance. Actual costs depend on site conditions, plan, approvals and material selection at the time of agreement.</p>
         <h2>RERA</h2>
-        <p>Projects offered for sale are registered under Gujarat RERA. Registration numbers are shown on each project page and are available at the RERA website.</p>
+        <p>Projects offered for sale are registered under Uttar Pradesh RERA. Registration numbers are shown on each project page and are available at the RERA website.</p>
         <h2>Contact</h2>
         <p>Questions about these terms: {company.email}.</p>
       </Container>

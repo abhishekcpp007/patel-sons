@@ -23,7 +23,7 @@ export function ogCard({ eyebrow, title, subtitle, image }: { eyebrow: string; t
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div style={{ fontSize: 30, fontWeight: 800, display: "flex" }}>Patel <span style={{ color: "#ff8a3d", marginLeft: 8 }}>Sons</span></div>
-              <div style={{ fontSize: 13, letterSpacing: 5, color: "#aab5c9" }}>CONSTRUCTION · AHMEDABAD</div>
+              <div style={{ fontSize: 13, letterSpacing: 5, color: "#aab5c9" }}>CONSTRUCTION · LUCKNOW</div>
             </div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 18, maxWidth: 900 }}>
@@ -32,7 +32,7 @@ export function ogCard({ eyebrow, title, subtitle, image }: { eyebrow: string; t
             {subtitle && <div style={{ fontSize: 26, color: "#d6dce7", lineHeight: 1.35, display: "flex" }}>{subtitle}</div>}
           </div>
           <div style={{ display: "flex", gap: 36, fontSize: 20, color: "#aab5c9" }}>
-            <span>patelsons.in</span><span>+91 98765 43210</span><span>Row houses · Buildings · Private contracts</span>
+            <span>patelsons.in</span><span>+91 88403 14508</span><span>Row houses · Buildings · Private contracts</span>
           </div>
         </div>
       </div>

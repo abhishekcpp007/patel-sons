@@ -12,9 +12,9 @@ import { services } from "@/content/services";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = pageMeta({
-  title: "Construction Services in Ahmedabad | Patel Sons",
+  title: "Construction Services in Lucknow | Patel Sons",
   description:
-    "Row house development, apartment buildings, labour-rate and with-material contracts, real estate guidance and building materials supply in Ahmedabad by Patel Sons.",
+    "Row house development, apartment buildings, labour-rate and with-material contracts, real estate guidance and building materials supply in Lucknow by Patel Sons.",
   path: "/services",
   image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&h=630&q=80",
 });
@@ -31,7 +31,7 @@ export default function ServicesPage() {
             itemListElement: services.map((s, i) => ({
               "@type": "ListItem",
               position: i + 1,
-              item: { "@type": "Service", name: s.title, description: s.short, url: `${SITE_URL}/services/${s.slug}`, provider: { "@id": `${SITE_URL}/#organization` }, areaServed: "Ahmedabad" },
+              item: { "@type": "Service", name: s.title, description: s.short, url: `${SITE_URL}/services/${s.slug}`, provider: { "@id": `${SITE_URL}/#organization` }, areaServed: "Lucknow" },
             })),
           },
         ]}
@@ -51,7 +51,7 @@ export default function ServicesPage() {
             return (
               <Reveal key={s.slug} className={cn("grid items-center gap-10 scroll-mt-28 lg:grid-cols-2 lg:gap-16", i % 2 === 1 && "lg:[&>*:first-child]:order-2")}>
                 <div id={s.slug} className="relative aspect-[4/3] overflow-hidden rounded-[2rem] shadow-soft">
-                  <Image src={s.image} alt={`${s.title} by Patel Sons in Ahmedabad`} fill sizes="(min-width:1024px) 50vw, 100vw" className="object-cover" />
+                  <Image src={s.image} alt={`${s.title} by Patel Sons in Lucknow`} fill sizes="(min-width:1024px) 50vw, 100vw" className="object-cover" />
                   <span className="absolute left-5 top-5 rounded-full bg-white/90 px-3 py-1 font-display text-xs font-bold text-ink-900">0{i + 1}</span>
                 </div>
                 <div>

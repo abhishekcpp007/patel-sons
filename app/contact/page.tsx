@@ -12,8 +12,8 @@ import { company } from "@/content/company";
 import { WhatsAppIcon } from "@/components/icons/social";
 
 export const metadata: Metadata = pageMeta({
-  title: "Contact Patel Sons | Construction Quote in Ahmedabad",
-  description: "Call, WhatsApp or send an enquiry to Patel Sons for row houses, apartments, labour-rate or with-material construction contracts in Ahmedabad. Free site visit.",
+  title: "Contact Patel Sons | Construction Quote in Lucknow",
+  description: "Call, WhatsApp or send an enquiry to Patel Sons for row houses, apartments, labour-rate or with-material construction contracts in Lucknow. Free site visit.",
   path: "/contact",
   image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&h=630&q=80",
 });
@@ -30,7 +30,7 @@ export default function ContactPage() {
             <div className="rounded-3xl bg-ink-900 p-7 text-white">
               <h2 className="text-xl font-bold">Reach us directly</h2>
               <ul className="mt-6 space-y-5 text-sm">
-                <li className="flex gap-3"><Phone className="mt-0.5 h-5 w-5 shrink-0 text-brand-400" /><div><p className="text-ink-300">Phone</p><a href={company.phoneHref} className="font-semibold hover:text-brand-400">{company.phone}</a></div></li>
+                <li className="flex gap-3"><Phone className="mt-0.5 h-5 w-5 shrink-0 text-brand-400" /><div><p className="text-ink-300">Phone</p><a href={company.phoneHref} className="block font-semibold hover:text-brand-400">{company.phone}</a><a href={company.phone2Href} className="block font-semibold hover:text-brand-400">{company.phone2}</a></div></li>
                 <li className="flex gap-3"><WhatsAppIcon className="mt-0.5 h-5 w-5 shrink-0 text-[#25D366]" /><div><p className="text-ink-300">WhatsApp</p><a href={`https://wa.me/${company.whatsapp}`} target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-brand-400">Chat on WhatsApp</a></div></li>
                 <li className="flex gap-3"><Mail className="mt-0.5 h-5 w-5 shrink-0 text-brand-400" /><div><p className="text-ink-300">Email</p><a href={`mailto:${company.email}`} className="font-semibold hover:text-brand-400">{company.email}</a></div></li>
                 <li className="flex gap-3"><MapPin className="mt-0.5 h-5 w-5 shrink-0 text-brand-400" /><div><p className="text-ink-300">Office</p><p className="font-semibold">{company.address}</p></div></li>

@@ -15,7 +15,7 @@ import { labourPackages, materialPackages } from "@/content/services";
 import { contractFaqs } from "@/content/faqs";
 
 export const metadata: Metadata = pageMeta({
-  title: "Construction Contract Rates in Ahmedabad | Labour & With Material",
+  title: "Construction Contract Rates in Lucknow | Labour & With Material",
   description:
     "Build your home on your plot with Patel Sons. Labour-rate contracts from ₹260/sq ft, with-material turnkey contracts from ₹1,750/sq ft. Fixed price, stage-wise payment, weekly reports.",
   path: "/contracts",
@@ -46,7 +46,7 @@ export default function ContractsPage() {
             name: "Private Construction Contract",
             serviceType: ["Labour Rate Contract", "With Material Contract"],
             provider: { "@id": `${SITE_URL}/#organization` },
-            areaServed: "Ahmedabad",
+            areaServed: "Lucknow",
             offers: [...labourPackages.map((p) => ({ "@type": "Offer", name: `Labour rate — ${p.name}`, price: p.rate, priceCurrency: "INR", unitText: "per sq ft" })), ...materialPackages.map((p) => ({ "@type": "Offer", name: `With material — ${p.name}`, price: p.rate, priceCurrency: "INR", unitText: "per sq ft" }))],
           },
         ]}

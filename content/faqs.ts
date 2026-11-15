@@ -4,7 +4,7 @@ export const contractFaqs = [
     a: "In a labour-rate contract you purchase all materials (cement, steel, bricks, tiles, etc.) and Patel Sons supplies the skilled workforce, supervision and site management, billed per sq. ft. of built-up area. In a with-material contract we supply everything, labour and materials, at a single fixed per sq. ft. rate, so you deal with one party and one price.",
   },
   {
-    q: "What is the construction cost per sq. ft. in Ahmedabad?",
+    q: "What is the construction cost per sq. ft. in Lucknow?",
     a: "Our with-material packages start at ₹1,750 per sq. ft. (Standard), ₹2,150 (Premium) and ₹2,650 (Luxury). Labour-only contracts start at ₹260 per sq. ft. for structure and ₹390 for structure plus finishing. Final rates depend on your plan, plot and site conditions.",
   },
   {
@@ -21,14 +21,14 @@ export const contractFaqs = [
   },
   {
     q: "Do you help with plan approval and permissions?",
-    a: "Yes. We coordinate with our panel architects and structural engineers for drawings and assist with AUDA/AMC plan approval as part of the project.",
+    a: "Yes. We coordinate with our panel architects and structural engineers for drawings and assist with LDA/LMC plan approval as part of the project.",
   },
 ];
 
 export const buyerFaqs = [
   {
     q: "Are Patel Sons projects RERA registered?",
-    a: "Yes. Every project we sell is registered under Gujarat RERA and the registration number is displayed on the project page and in the agreement.",
+    a: "Yes. Every project we sell is registered under Uttar Pradesh RERA and the registration number is displayed on the project page and in the agreement.",
   },
   {
     q: "Can I visit an ongoing site before booking?",
