@@ -5,7 +5,6 @@ import { ServicesSection } from "@/components/home/services-section";
 import { FeaturedProjects } from "@/components/home/featured-projects";
 import { ProcessSection } from "@/components/home/process-section";
 import { WhyUs } from "@/components/home/why-us";
-import { Testimonials } from "@/components/home/testimonials";
 import { SocialSection } from "@/components/home/social-section";
 import { CTA } from "@/components/home/cta";
 import { AreasStrip } from "@/components/home/areas-strip";
@@ -47,7 +46,6 @@ export default function HomePage() {
       <ProcessSection />
       <WhyUs />
       <MaterialsStrip />
-      <Testimonials />
       <AreasStrip />
       <BlogSection />
       <SocialSection />

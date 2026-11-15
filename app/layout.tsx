@@ -50,6 +50,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </>
         )}
         <MotionProvider>
+          <div className="bg-ink-900 px-4 py-2 text-center text-xs text-white sm:text-sm">
+            Portfolio demo by Abhishek Verma. Business details, photos and numbers on this site are sample data.
+          </div>
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
