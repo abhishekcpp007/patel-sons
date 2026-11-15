@@ -61,6 +61,7 @@ export default function ContractsPage() {
         <div className="mt-8 flex flex-wrap gap-3">
           <a href="#labour" className="rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-semibold backdrop-blur hover:bg-white/20">Labour rate from ₹260/sq. ft.</a>
           <a href="#material" className="rounded-full bg-brand-500 px-5 py-2.5 text-sm font-semibold hover:bg-brand-600">With material from ₹1,750/sq. ft.</a>
+          <a href="/rates" className="rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-semibold backdrop-blur hover:bg-white/20">Grey structure from ₹965/sq. ft.</a>
         </div>
       </PageHero>
 

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.patelsons.app",
+      "sha256_cert_fingerprints": [
+        "3D:89:9D:BF:F0:54:B5:4B:AB:C0:E7:0D:61:4A:80:A9:F6:88:C1:EC:16:D3:37:5C:21:32:39:0F:78:43:50:C6"
+      ]
+    }
+  }
+]

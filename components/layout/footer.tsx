@@ -25,7 +25,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white">Company</h4>
             <ul className="mt-5 space-y-3 text-sm">
-              {[...nav.slice(1), { href: "/gallery", label: "Gallery" }, { href: "/blog", label: "Blog & guides" }, { href: "/areas", label: "Areas we serve" }, { href: "/materials/guides", label: "Material usage guides" }, { href: "/track", label: "Track your order" }, { href: "/support", label: "Help & complaints" }, { href: "/signup", label: "Create account" }].map((n) => (
+              {[...nav.slice(1), { href: "/rates", label: "Rate card" }, { href: "/gallery", label: "Gallery" }, { href: "/blog", label: "Blog & guides" }, { href: "/areas", label: "Areas we serve" }, { href: "/materials/guides", label: "Material usage guides" }, { href: "/track", label: "Track your order" }, { href: "/support", label: "Help & complaints" }, { href: "/signup", label: "Create account" }].map((n) => (
                 <li key={n.href}>
                   <Link href={n.href} className="transition-colors hover:text-brand-400">
                     {n.label}
