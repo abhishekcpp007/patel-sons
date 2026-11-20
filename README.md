@@ -1,5 +1,7 @@
 # Patel Sons — Construction Company Website
 
+**Live site:** https://patel-gamma.vercel.app
+
 Next.js 16 + TypeScript + Tailwind CSS 4 marketing site for Patel Sons (row houses, residential buildings, labour-rate and with-material construction contracts).
 
 ## Run
